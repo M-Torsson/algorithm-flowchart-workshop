@@ -195,7 +195,7 @@ flowchart TD
     A([Start]) --> B[/Input P/]
     B --> C[/Input R/]
     C --> D[/Input T/]
-    D --> E[SI = (P * R * T) / 100]
+    D --> E[SI = P * R * T / 100]
     E --> F[/Print SI/]
     F --> G([End])
 ```
